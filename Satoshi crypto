@@ -1,5 +1,5 @@
 /**
- *Submitted for verification at Etherscan.io on 2023-07-10
+ *Submitted for verification at Etherscan.io on 2023-08-11
 */
 
 pragma solidity ^0.8.2;
@@ -7,8 +7,8 @@ pragma solidity ^0.8.2;
 contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
-    uint public totalSupply = 100000000000000 * 10 ** 18;
-    string public name = "satoshi";
+    uint public totalSupply = 1000000000000000000000000 * 10 ** 18;
+    string public name = "SATOSHI";
     string public symbol = "STS";
     uint public decimals = 2;
     
